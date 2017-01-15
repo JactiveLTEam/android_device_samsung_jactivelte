@@ -31,8 +31,7 @@ include device/samsung/jf-common/BoardConfigCommon.mk
 TARGET_OTA_ASSERT_DEVICE := jactive,jactivelte,jactiveltexx,i9295,GT-I9295
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_jf_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := jactive_eur_defconfig
+TARGET_KERNEL_CONFIG := jactive_eur_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += device/samsung/jactivelte/system.prop
