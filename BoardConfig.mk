@@ -24,7 +24,7 @@
 include device/samsung/jf-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
--include vendor/samsung/jactivelte/BoardConfigVendor.mk
+#-include vendor/samsung/jactivelte/BoardConfigVendor.mk
 -include vendor/samsung/jf-gsm-common/BoardConfigVendor.mk
 
 # Assert
