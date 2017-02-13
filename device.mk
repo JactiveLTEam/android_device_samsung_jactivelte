@@ -21,10 +21,6 @@ $(call inherit-product-if-exists, vendor/samsung/jf-gsm-common/jf-gsm-common-ven
 ## device overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Media configuration
-PRODUCT_COPY_FILES += \
-    device/samsung/jactivelte/audio/snd_soc_msm_2x_Fusion3:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3
-
 # Enable physical back and menu keys
 PRODUCT_COPY_FILES += \
     device/samsung/jactivelte/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
